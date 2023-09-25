@@ -7,7 +7,7 @@ public class Main {
     public static int MAXFLOR = 25;
     public static void main(String[] args) {
         Queue<String> queue = new ArrayDeque<>();
-
+        String viv = "";
         while (true) {
             System.out.println("Ввод номеров этажей");
             String input = scanner.nextLine();
@@ -17,7 +17,7 @@ public class Main {
                 }
                 return;
             }
-            String viv = "";
+            
             if (queue.isEmpty()) {
                 viv = " -> ";
             } else {
